@@ -1,0 +1,49 @@
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: rgb(25, 25, 203);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 1rem;
+    gap: 1rem;
+   
+}
+
+.productContainer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.productContainer img {
+    max-width: 95%;
+    max-height: 95%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.productContainer h1 {
+    color: rgb(255, 220, 91);
+}
+
+.productContainer p {
+    color: rgb(255, 220, 91);
+}

@@ -1,0 +1,15 @@
+:root {
+    --color-primary: rgb(255, 127, 68);
+    --color-secondary: rgb(100, 70, 255);
+    --color-tertiary: rgb(255, 0, 200);
+    --color-text: rgb(200, 196, 0);
+    --color-title: rgb(195, 0, 200);
+    --sublime-text: rgb(0, 217, 200);
+}
+
+* {
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
